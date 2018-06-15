@@ -15,24 +15,15 @@ sed -i '/HOSTNAME/d' /etc/sysconfig/network
 echo HOSTNAME=mapr0 >> /etc/sysconfig/network
 
 hostname mapr0
+mke2fs /dev/xvdz
+mkdir -p /opt/mapr
+mount /dev/xvdz /opt/mapr
 
 wget http://package.mapr.com/releases/installer/redhat/mapr-setup.sh
 sh mapr-setup.sh -y
 echo sleeping for 20 seconds...
 sleep 20
+
 wget https://raw.githubusercontent.com/jsunmapr/tweets-dsr-demo/master/template-converged-600-400.yaml -O /tmp/template-converged-600-400.yaml
 chmod 755 /tmp/template-converged-600-400.yaml
 su - mapr -c "/opt/mapr/installer/bin/mapr-installer-cli install -fnv -t /tmp/template-converged-600-400.yaml -u mapr:mapr@localhost:9443"
-
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
-    Blog
