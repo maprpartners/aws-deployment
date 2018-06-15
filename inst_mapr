@@ -24,6 +24,6 @@ sh mapr-setup.sh -y
 echo sleeping for 20 seconds...
 sleep 20
 
-https://raw.githubusercontent.com/maprpartners/aws-deployment/master/stanza.yaml -O /tmp/stanza.yaml
+wget https://raw.githubusercontent.com/maprpartners/aws-deployment/master/stanza.yaml -O /tmp/stanza.yaml
 chmod 755 /tmp/stanza.yaml
 su - mapr -c "/opt/mapr/installer/bin/mapr-installer-cli install -fnv -t /tmp/stanza.yaml -u mapr:mapr@localhost:9443"
