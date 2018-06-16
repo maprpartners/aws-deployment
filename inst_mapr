@@ -1,3 +1,5 @@
+#http://169.254.169.254/latest/user-data
+#http://169.254.169.254/latest/metadata
 sed -i '/mapr0/d' /etc/hosts
 sed -i '/PasswordAuthentication/d' /etc/ssh/sshd_config
 sed -i '/PermitRootLogin/d' /etc/ssh/sshd_config
