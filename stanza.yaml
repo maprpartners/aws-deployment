@@ -6,7 +6,7 @@ environment:
 config:
   #DOC list of hosts we want to install packages on (required)
   #DOC installer host must be one of the hosts in this list
-  hosts: [mapr0]
+  hosts: [hhhh]
 
   security: True
   #provider:
@@ -24,7 +24,7 @@ config:
   #DOC disk stripe width (optional)
   #disk_stripe: 3
   #DOC name of the cluster (required)
-  cluster_name: mapr600
+  cluster_name: my.cluster.com
   #DOC hashmap of services to be installed (optional)
   services:
     template-05-converged:
