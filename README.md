@@ -1,5 +1,12 @@
 # aws-deployment
-This is for MapR deployment outside of AWS marketplace
+
+There are two options to deploy MapR on AWS:
+
+1. MapR Marketplace on AWS (You pay AWS including the MapR license):
+https://aws.amazon.com/marketplace/seller-profile?id=802b0a25-877e-4b57-9007-a3fd284815a5
+
+
+2. MapR deployment outside of AWS marketplace (You pay AWS for infrastructure cost, and bring your own MapR license)
 
  
    Here is the CFT that is associated with MapR "Bring Your Own License (BYOL)" offering in MapR marketplace.
