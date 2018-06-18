@@ -9,7 +9,7 @@ https://aws.amazon.com/marketplace/seller-profile?id=802b0a25-877e-4b57-9007-a3f
 2. MapR deployment outside of AWS marketplace with CloudFormation Templates
 (You pay AWS for infrastructure cost, and bring your own MapR license)
 
-   You need to agree the terms first in order to use the AMI.
+   You need to agree to the terms first in order to use the AMI.
    Go to https://aws.amazon.com/marketplace/pp/B018T2N8P4?qid=1526418565389&sr=0-4&ref_=srh_res_product_title
    click on top-right corner where it says: "Continue to subscribe". Then accept the terms.
    
