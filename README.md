@@ -2,7 +2,7 @@
 
 There are two options to deploy MapR on AWS:
 
-1. MapR Marketplace on AWS (You pay AWS including the MapR license):
+1. MapR Marketplace on AWS (You pay AWS including the MapR license, hourly charge, pay-as-you-go):
 https://aws.amazon.com/marketplace/seller-profile?id=802b0a25-877e-4b57-9007-a3fd284815a5
 
 
